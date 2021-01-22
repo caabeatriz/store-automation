@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light bg-nav-bar ">
+    <div class="container">
+      <a class="navbar-brand text-logo">
+        <img src="assets/logo-store.jpg">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white text-bold">A Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-bold">Suporte</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-bold">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-bold">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div id="carouselExampleControls bg-black-transparent" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide"
+              alt="Primeiro Slide">
+            <div class="d-flex bd-highlight">
+              <div class="p-2 flex-fill bd-highlight">
+                <p>Criamos soluções inovadoras adequadas a sua necessidade!</p>
+              </div>
+              <div class="p-2 flex-fill bd-highlight">Flex item</div>
+              <div class="p-2 flex-fill bd-highlight">Flex item</div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+  </header>
+  <section class="d-flex  container-90 history-store">
+    <div class="history-store__box-text">
+      <h2 class="text-bold text-uppercase mb-5">Uma longa história</h2>
+      <p>A Store completou 30 anos de mercado com muita experiência, senioridade e aprendizados. Ao longo dessa jornada
+        tivemos grandes conquistas e muitas parcerias de sucesso. É por isso que agradecemos imensamente ao nosso time e
+        nossos clientes!</p>
+    </div>
+    <div class="history-store_image">
+      <img src="assets/logo-30.png" alt="">
+    </div>
+
+  </section>
+ 
+  <section class="section-cel">
+    <div class="container-90 d-flex  ">
+      <div>
+
+        <p class="section-cel__text text-white">" Em tempos de instabilidade no mercado, é fundamental se preparar para
+          o futuro. </p>
+        <p class="section-cel__subtext text-white"> NÓS ESTAMOS NOS PREPARANDO. EM BREVE, TEREMOS UMA NOVA STORE, MAS
+          COM A MESMA ESSÊNCIA!</p>
+      </div>
+      <div> <img class="section-cel__image" src="assets/mobile.jpg" alt=""></div>
+    </div>
+
+  </section>
+  <section class="forms-contact">
+    <div class="container-90 d-flex forms-contact__box justify-content-between">
+      <div class="forms-contact__box-title">
+        <h2 class="text-bold">VAMOS JUNTOS CONSTRUIR UMA NOVA E A MELHOR SOLUÇÃO PARA O QUE VOCÊ PRECISA?</h2>
+      </div>
+      <div class="forms-contact__box-forms">
+        <form>
+          <div class="form-group d-flex">
+            <input class="form-control form-control-lg mr-4" type="text" placeholder="Nome">
+            <input class="form-control form-control-lg" type="email" placeholder="Email">
+          </div>
+          <div class="form-group d-flex">
+            <input class="form-control form-control-lg mr-4" type="text" placeholder="Telefone">
+            <input class="form-control form-control-lg" type="text" placeholder="Empresa">
+          </div>
+          <div class="form-group">
+            <input class="form-control form-control-lg" type="text"  placeholder="Mensagem">
+
+          </div>
+
+          <!-- <button type="submit" class="btn btn-primary">Enviar</button> -->
+        </form>
+      </div>
+    </div>
+    
+  </section>
+  <section class=" container-90  threeDescription">
+    <div class="threeDescription_title">
+      <h2 class="text-uppercase text-bold">Fique por dentro do universo da store automação e atualize-se!</h2>
+    </div>
+    <div class="d-lg-flex d-sm-block justify-content-between">
+      <div class="threeDescription_images">
+        <div class="threeDescription_images-box">
+          <img src="assets/containers.jpg" alt="Containers">
+        </div>
+        <div>
+          <p class='text-grey'>O picking e suas ferramentas</p>
+        </div>
+      </div>
+      <div class="threeDescription_images">
+        <div class="threeDescription_images-box">
+          <img src="assets/texto-do-blog.jpg" alt="Mão digitando">
+        </div>
+        <div>
+          <p class='text-grey'>O BPO no setor logístico</p>
+        </div>
+      </div>
+      <div class="threeDescription_images">
+        <div class="threeDescription_images-box">
+          <img src="assets/texto-do-blog-3.jpg" alt="Containers">
+        </div>
+        <div>
+          <p class='text-grey'>A importância do WMS na gestão Logística e Estratégica para o Sucesso na Black Friday</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="sub-footer text-center">
+      <span class="sub-footer__text">Store Automação 2020 - Todos os direitos reservados - Rs Press.</span>
+    </div>
+  </footer>
+</body>
+
+</html>
