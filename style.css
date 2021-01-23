@@ -3,6 +3,7 @@
 }
 .bg-nav-bar{
     background-color: #000000;
+    padding: 2vh;
 }
 
 .btn-red{
@@ -33,10 +34,21 @@ p{
     font-size: 2rem;
     
 }
-
-.container-90{
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Botões */
+.btn-red{
+    width: 13vw;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.container-80{
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -107,17 +119,24 @@ p{
     box-shadow: 6px 6px 6px #00000029;
     opacity: 1;
     color: #ffffff;
-    padding: 10vh 0 0 0;
 }
 .section-cel__text{
-    width: 45%;
+    width: 50%;
+
 }
 .section-cel__subtext{
     font-style: italic;
     width: 60%;
 }
 .section-cel__image{
-    margin-top: -250px;
+    margin-top: -370px;
+    width: 430px;
+}
+
+.section-cel_box-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sub-footer{
@@ -127,4 +146,24 @@ p{
 }
 .sub-footer__text{
     color: #666666;;
+}
+
+.partner{
+    background-color: #000000;
+}
+.partner__box{
+    width: 41.7%;
+    margin-bottom: 10vh;
+}
+.partner__box-title{
+    width: 30%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+.partner__box-title_title{
+    text-align: end;
+}
+
+.sucess{
+    background-color: #ACACAC;
 }
