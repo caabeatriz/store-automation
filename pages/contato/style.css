@@ -49,7 +49,7 @@ a{
 }
 
 .banner-background{
-   background-image: url(assets/world.jpeg);
+   background-image: url(../../assets/contact.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position-y: center;

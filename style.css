@@ -92,7 +92,7 @@ a{
 }
 .threeDescription_images
 {
-    width: 27%;
+    width: 30%;
 }
 .threeDescription_images-box{
     width:100%;
@@ -100,12 +100,16 @@ a{
 }
 .threeDescription_images img {
     width: 100%;
+    height: 80%;
     margin-top: 10vh;
     margin-bottom: 3vh;
 }
 .threeDescription_title{
     width: 55vw;
     
+}
+.threeDescription_images-texts{
+    margin-top: 50px;
 }
 
 .forms-contact{
