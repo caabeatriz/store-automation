@@ -48,16 +48,34 @@ a{
 }
 .container-80{
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
 }
 
-
+.banner-background{
+   background-image: url(assets/world.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: center;
+   height: 100vh;
+   padding: 30vh 0 0 0;
+}
+.banner-textOne{
+    width: 30%;
+}
+.banner-textTwo{
+    width: 33%;
+}
+.btn-banner{
+    margin-top: 170px;
+    margin-left: 220px;
+}
 .history-store{
     justify-content: space-between;
     align-items: center;
+    padding: 10vh 0 10vh 0;
 }
 .history-store__box-text{
-    width: 35%;
+    width: 39%;
 }
 .history-store_image{
     width: 65%;
@@ -166,4 +184,26 @@ a{
 
 .sucess{
     background-color: #ACACAC;
+    padding-top: 10vh;
+}
+.sucess-images{
+    width: 43%;
+}
+.sucess-texts{
+    width: 50%;
+}
+.sucess-images_boxOne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sucess-images_boxOne img {
+    width: 48%;
+}
+.sucess-texts__boxOne{
+    margin-right: 175px;
+}
+.sucess-texts__boxTwo{
+    margin-left: 245px;
+    text-align: end;
 }

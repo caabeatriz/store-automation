@@ -1,0 +1,103 @@
+*{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg-nav-bar{
+    background-color: #000000;
+    padding: 2vh;
+}
+
+.btn-red{
+    background-color: #BF0607;
+}
+
+/* Textos */
+.text-bold {
+    font-weight: bold;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-grey{
+   
+    color: #666666;
+}
+.text-white{
+    color: #ffffff;
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* Botões */
+.btn-red{
+    width: 13vw;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.container-85{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.banner-background{
+   background-image: url(assets/world.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: center;
+   height: 100vh;
+   padding: 30vh 0 0 0;
+}
+.banner-textOne{
+    width: 30%;
+}
+.banner-textTwo{
+    width: 33%;
+}
+.btn-banner{
+    margin-top: 170px;
+    margin-left: 220px;
+}
+
+.forms-contact{
+    background: transparent url(../../assets/Imagem-banner-formulário.jpeg) 0% 0% no-repeat padding-box;
+    background-size: cover;
+    height: 70vh;
+    background-position-y: -140px;
+}
+.forms-contact__box{
+    padding: 10vh 0 10vh 0;
+    height: 70vh;
+    align-items: center;
+}
+.forms-contact__box-title{
+    width: 30%;
+    color: #ffffff;
+}
+.form-control{
+    background-color: #ffffff96;
+    border: 1px solid #707070;
+    height: 12.5vh;
+    border-radius: 14px;
+}
+.forms-contact__box-forms{
+    width: 47%;
+}
+
+.icons-texts__box{
+    margin-top: 86px;
+}
+.icons-texts__subtext{
+ width: 90%;
+}
+.contact{
+    padding: 10vh 0 10vh 0;
+}
