@@ -32,9 +32,10 @@ p{
     
 }
 a{
-    text-decoration: none;
-    color: #ffffff;
+    text-decoration: none !important;
+    color: #ffffff !important;
 }
+
 /* Botões */
 .btn-red{
     width: 13vw;
@@ -54,10 +55,11 @@ a{
    background-repeat: no-repeat;
    background-position-y: center;
    height: 100vh;
-   padding: 30vh 0 0 0;
+   padding: 20vh 0 0 0;
 }
 .banner-textOne{
-    width: 30%;
+    width: 55%;
+    margin-top: 150px;
 }
 .banner-textTwo{
     width: 33%;
@@ -91,3 +93,48 @@ a{
 .forms-contact__box-forms{
     width: 47%;
 }
+.logistic-images{
+    width: 60%;
+}
+
+.logistic-images img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+  .circle1 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+  }
+  
+  .circle2 {
+    transform: translate(4%, 4%);
+    width: 70px;
+    height: 70px;
+    background-color: #010101;
+    border-radius: 50%;
+  }
+  
+  .circle3 {
+    transform: translate(68%, 68%);
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+  }
+  .line-circle{
+    border-left: 4px solid white;
+    margin-top: 74px;
+    margin-left: -113px;
+    height: 100vh;
+  }
