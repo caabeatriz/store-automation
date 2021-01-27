@@ -8,9 +8,6 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -113,10 +110,29 @@
   <section class="vision">
       <div class="vision-box d-flex">
         <div class=" vision-box__text ">
-          <h3 class="text-white text-bold font-italic">Nossa visão</h3>
-          <p class="text-white mt-5">Ser um ícone global em soluções para o mercado de SUPPLY CHAIN, com o uso de plataformas
-            tecnológicas e inovadoras, colaborando para uma economia justa, transformando os modelos atuais em negócios
-            digitais.z</p>
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active vision-box__text-one">
+                <h3 class="text-white text-bold font-italic">Nossa visão</h3>
+                <p class="text-white mt-5">Ser um ícone global em soluções para o mercado de SUPPLY CHAIN, com o uso de plataformas
+                  tecnológicas e inovadoras, colaborando para uma economia justa, transformando os modelos atuais em negócios
+                  digitais.</p>
+              </div>
+              <div class="carousel-item">
+                <h3 class="text-white text-bold font-italic">Nossos valores</h3>
+                <p class="text-white mt-5">*Ética, respeito e transparência</p>
+                <p class="text-white mt-5" >*Comprometimento </p>
+                <p class="text-white mt-5" >*Incentivo e reconhecimento do desenvolvimento pessoal </p>
+                <p class="text-white mt-5" >*Simplicidade flexibilidade e inovação </p>
+                <p class="text-white mt-5" >*Sustentabilidade</p>
+              </div>
+            </div>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+         
         </div>
         <div class="vision-box__img float-right"><img src="../../assets/computador.png" class="float-right" alt=""></div>
       </div>    
@@ -146,6 +162,43 @@
       </div>
     </div>
   </section>
+  <section class=" container-85  threeDescription">
+    <div class="threeDescription_title">
+      <h2 class="text-uppercase text-bold">Fique por dentro do universo da store automação e atualize-se!</h2>
+    </div>
+    <div class="d-lg-flex d-sm-block justify-content-between">
+      <div class="threeDescription_images">
+        <div class="threeDescription_images-box">
+          <img src="../../assets/containers.jpg" alt="Containers">
+        </div>
+        <div class="threeDescription_images-texts">
+          <p class='text-grey'>O picking e suas ferramentas</p>
+        </div>
+      </div>
+      <div class="threeDescription_images">
+        <div class="threeDescription_images-box">
+          <img src="../../assets/texto-do-blog.jpg" alt="Mão digitando">
+        </div>
+        <div class="threeDescription_images-texts">
+          <p class='text-grey'>O BPO no setor logístico</p>
+        </div>
+      </div>
+      <div class="threeDescription_images">
+        <div class="threeDescription_images-box">
+          <img src="../../assets/texto-do-blog-3.jpg" alt="Containers">
+        </div>
+        <div class="threeDescription_images-texts">
+          <p class='text-grey'>A importância do WMS na gestão Logística e Estratégica para o Sucesso na Black Friday</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ <script>
+   $('.carousel').carousel()
+ </script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
