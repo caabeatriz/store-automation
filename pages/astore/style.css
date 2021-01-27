@@ -93,19 +93,55 @@ a{
 .forms-contact__box-forms{
     width: 47%;
 }
-.logistic-images{
-    width: 60%;
+.logistic{
+    padding: 15vh 0 0 0;
 }
-
+.logistic-images{
+    width: 40%;
+}
 .logistic-images img{
     width: 100%;
 }
+.logistic-texts{
+    width: 52%;
+}
+.logistic-images-one{
+    width: 90%;
+    margin: 0 auto;
+}
+.logistic-images-two{
+ width: 100%;
+ justify-content: space-between;
+ margin-top: 40px;
+ margin-bottom: -90px;
+}
+.logistic-images-two img{
+    width: 49%;
+}
+.logistic-images-two__top{
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+.logistic-texts__subtexts{
+    width: 83.8%;
+}
 
-
-
-
-
-
+.vision{
+    background-color: #000000;
+    height: 100vh;
+    padding: 15vh 0 0 0;
+}
+.vision-box__img{
+    width: 100%;
+}
+.vision-box__img img{
+    width: 75%;
+}
+.vision-box__text{
+    width: 45%;
+    margin-left: 140px;
+    margin-top: 200px;
+}
 
   .circle1 {
     position: relative;
