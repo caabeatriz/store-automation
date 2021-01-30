@@ -24,6 +24,9 @@
 .text-white{
     color: #ffffff;
 }
+.visited{
+    color: #F3CB91 !important;
+}
 h2{
     font-size: 3rem;
 }

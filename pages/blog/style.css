@@ -1,0 +1,99 @@
+*{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg-nav-bar{
+    background-color: #000000;
+    padding: 2vh;
+}
+
+.btn-red{
+    background-color: #BF0607;
+}
+
+/* Textos */
+.text-bold {
+    font-weight: bold;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-grey{
+   
+    color: #666666;
+}
+.text-white{
+    color: #ffffff;
+}
+.visited{
+    color: #F3CB91 !important;
+}
+h2{
+    font-size: 3rem;
+    font: normal normal bold 45px/61px Open Sans;
+}
+p{
+    font-size: 2rem;
+    
+}
+a{
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+/* Botões */
+.btn-red{
+    width: 13vw;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.container-85{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.banner-background{
+   background-image: url(../../assets/Blog-imagem-banner.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: center;
+   height: 100vh;
+   padding: 20vh 0 0 0;
+}
+.banner-textOne{
+    width: 55%;
+    margin-top: 150px;
+}
+.banner-textTwo{
+    width: 33%;
+}
+.btn-banner{
+    margin-top: 170px;
+    margin-left: 220px;
+}
+
+.blog{
+    padding: 20vh 0 20vh 0;
+}
+.blog-box__img{
+    width: 100%;
+    background-size: cover;
+    height: 335px;
+}
+.blog-box__subtext{
+    margin-bottom: 20vh;
+}
+.blog-box__img-picking{
+    background-image: url(../../assets/Texto-do-blog-1.jpg);
+}
+.blog-box__img-bpo{
+    background-image: url(../../assets/texto-do-blog-2.jpg);
+    background-position: center;
+    background-position-y: 560px;
+}
+.blog-box__img-logistic{
+    background-image: url(../../assets/texto-do-blog-3.jpg);
+    background-position: center;
+    background-position-y: 560px;
+}
