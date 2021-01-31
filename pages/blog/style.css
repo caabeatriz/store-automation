@@ -131,6 +131,9 @@ a{
   .line-mobile{
       display: none;
   }
+  .disabled{
+      color: #6c757d !important;
+  }
 @media screen and (max-width:900px){
     h2{
       font-size: 0.95rem;

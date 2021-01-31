@@ -268,6 +268,9 @@ a{
   .mobile-on{
     display: none;
 }
+.disabled{
+    color: #6c757d !important;
+}
 .desktop-on{
     display: block;
 }

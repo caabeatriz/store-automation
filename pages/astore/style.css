@@ -150,8 +150,7 @@ a{
     margin-top: 200px;
 }
 .vision-box__text-one{
-    width: 78
-     %;
+    width: 78%;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 48px !important;
@@ -218,6 +217,9 @@ a{
   .line-mobile{
       display: none;
   }
+  .disabled{
+    color: #6c757d !important;
+}
 
   @media screen and (max-width:900px){
     h2{
