@@ -216,7 +216,7 @@ a{
             margin-bottom: 7vh;
         }
         .forms-contact {
-            height: 55vh;
+            min-height: 55vh;
             background-size: inherit;
         }
         .forms-contact__box {

@@ -206,4 +206,9 @@ a{
         .blog-box__subtext {
             margin-bottom: 7vh;
         }
+        .text-black-friday{
+            line-height: 1.5;
+            margin-top: 25px;
+            margin-bottom: 25px;        
+        }
 }

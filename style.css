@@ -85,6 +85,9 @@ a{
 .history-store__box-text{
     width: 39%;
 }
+.history-store__box-text__line{
+    display: block;
+}
 .history-store_image{
     width: 65%;
     text-align: center;
@@ -187,8 +190,8 @@ a{
 }
 .partner__box-title{
     width: 30%;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
 }
 .partner__box-title_title{
     text-align: end;
@@ -199,7 +202,8 @@ a{
     padding-top: 10vh;
 }
 .sucess-images{
-    width: 43%;
+    width: 46%;
+    height: 100vh;
 }
 .sucess-texts{
     width: 50%;
@@ -211,6 +215,15 @@ a{
 
 .sucess-images_boxOne img {
     width: 48%;
+    
+}
+.sucess-images_boxOne-imgOne{
+    margin-top: -33px;
+    margin-bottom: 33px;
+}
+.sucess-images_boxOne-imgTwo{
+    margin-bottom: -20px;
+    margin-top: 20px;
 }
 .sucess-texts__boxOne{
     margin-right: 175px;
@@ -252,7 +265,12 @@ a{
     margin-left: -313px;
     height: 100vh;
   }
-
+  .mobile-on{
+    display: none;
+}
+.desktop-on{
+    display: block;
+}
   @media screen and (max-width:900px){
       h2{
         font-size: 0.95rem;
@@ -260,14 +278,87 @@ a{
      p{
         font-size: 0.75rem;
      }
+     .circle1{
+        width: 55px;
+        height: 55px;
+       }
+       .circle2 {
+        transform: translate(5%, 5%);
+        width: 50px;
+        height: 50px;
+       }
+       .circle3 {
+        transform: translate(53%, 53%);
+        width: 25px;
+        height: 25px;
+       }
+       .line-mobile{
+           display: flex;
+           height: 10vh;
+       }
+       .line-circle {
+        height: 41vh;
+        margin-left: -32px;
+        margin-top: 54px;
+        }
+        .line-desktop{
+            display: none !important;
+        }
+       .banner-background{
+        height: 50vh;
+        background-position-x: center;
+        padding: 5vh 0 0 0;
+       }
+       .banner-background_box{
+           flex-direction: column;
+           height: 0;
+       }
+       .banner-textOne {
+            margin: 0;
+            width: 80%;
+            margin-left: 30px;
+            margin-top: 66px;
+        }
+        .banner-textTwo {
+        width: 100%;
+        margin-top: 20px;
+        }
+        .btn-banner{
+            margin-top: 10px;
+            margin-left: 0;
+        }
+        .desktop-on{
+            display: none;
+        }
+        .mobile-on{
+            display: block;
+        }
      .history-store__box-text{
          width: 100%;
+     }
+     .history-store__box-text__line h2{
+        width: 60%;
      }
      .history-store_image{
          width: 100%;
      }
       .history-store{
         flex-direction: column-reverse;
+        padding: 10vh 0 0vh 0;
+      }
+      .history-store__line{
+        border-bottom: 3px solid #545b62;
+        width: 55%;
+        height: 2vh;
+        margin-right: -44px;
+        text-align: center;
+        margin-top: -5px;
+      }
+      .history-store__box-text__line{
+          display: flex;
+      }
+      .history-store__line{
+          margin-bottom: 20px;
       }
       .sucess-box{
           flex-direction: column-reverse;
@@ -276,17 +367,31 @@ a{
         width: 100%;
     }
     .sucess-texts__boxOne {
-        margin-right: 70px;
+        margin-right: 20px;
     }
     .sucess-texts__boxTwo {
         margin-left: 134px;
     }
+    .sucess-images_boxOne-imgOne{
+        margin: 2px 0 2px 0;
+    }
+    .sucess-images_boxOne-imgTwo{
+        margin-top: 100px;
+    }
+    .sucess-images_boxOne img {
+        width: 48%;
+        height: 15vh;
+    }
     .sucess-images {
-        width: 35%;
-        margin-top: -200px;
+        width: 45%;
+        margin-top: -133px;
+        max-height: 18vh;
     }
     .sucess-images_boxOne-imgTwo__mobile{
         display: none;
+    }
+    .sucess-images_boxOne-imgOne__mobile{
+        margin-top: -90px;
     }
     .partner__box {
         width: 50%;
@@ -297,12 +402,13 @@ a{
         width: 40%;
     }
     .partner__box-title {
-        margin-bottom: 5vh;
+        margin-bottom: 2vh;
+        margin-top: 5vh;
     }
     .btn-red {
-        width: 37vw;
+        width: 100%;
         padding: 5px;
-        font-size: 0.95rem;
+        font-size: 0.75rem;
         font-weight: bold;
     }
     .section-cel__text, .section-cel__subtext {
@@ -310,7 +416,7 @@ a{
         width: 100%;
     }
     .section-cel__box-image{
-        width: 23%;
+        width: 29%;
         margin-top: 20px;
     }
     .section-cel__image {
@@ -352,4 +458,5 @@ a{
     .threeDescription_images-texts {
         margin-top: 80px;
     }
+  
   }
