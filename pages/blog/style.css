@@ -97,3 +97,113 @@ a{
     background-position: center;
     background-position-y: 560px;
 }
+.circle1 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+  }
+  
+  .circle2 {
+    transform: translate(4%, 4%);
+    width: 70px;
+    height: 70px;
+    background-color: #010101;
+    border-radius: 50%;
+  }
+  
+  .circle3 {
+    transform: translate(68%, 68%);
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+  }
+  .line-circle{
+    border-left: 4px solid white;
+    margin-top: 74px;
+    margin-left: -113px;
+    height: 100vh;
+  }
+  .line-mobile{
+      display: none;
+  }
+@media screen and (max-width:900px){
+    h2{
+      font-size: 0.95rem;
+   }
+   h3{
+    font-size: 0.95rem;
+   }
+   p{
+      font-size: 0.75rem;
+   }
+   .banner-background{
+    height: 50vh;
+    background-position-x: center;
+    padding: 5vh 0 0 0;
+   }
+   .banner-background_box{
+       flex-direction: column;
+       height: 0;
+   }
+   .banner-textOne {
+    margin: 0;
+    width: 80%;
+    margin-left: 55px;
+    margin-top: 100px;
+    }
+    .banner-textTwo {
+    width: 100%;
+    margin-top: 100px;
+    }
+    .btn-red {
+        width: 37vw;
+        padding: 5px;
+        font-size: 0.95rem;
+        font-weight: bold;
+    }
+    .btn-banner{
+        float: right;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .circle1{
+        width: 55px;
+        height: 55px;
+       }
+       .circle2 {
+        transform: translate(5%, 5%);
+        width: 50px;
+        height: 50px;
+       }
+       .circle3 {
+        transform: translate(53%, 53%);
+        width: 25px;
+        height: 25px;
+       }
+       .line-mobile{
+           display: flex;
+           height: 10vh;
+       }
+       .line-circle {
+        height: 41vh;
+        margin-left: -32px;
+        margin-top: 54px;
+        }
+        .line-desktop{
+            display: none !important;
+        }
+        .blog {
+            padding: 10vh 0 10vh 0;
+        }
+        .blog-box__img {
+            height: 100px;
+        }
+        .blog-box__subtext {
+            margin-bottom: 7vh;
+        }
+}
