@@ -229,19 +229,18 @@ a{
    p{
       font-size: 0.75rem;
    }
-   .navbar-brand {
-    width: 40%;
-   }
-   .navbar-brand img {
-       width: 100%;
-   }
-   .menu-mobile{
+   .navbarMobile{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    padding: 5px;
-   }
+    margin: 0 auto;
+}
+.navbar-brand{
+    width: 30%;
+}
+.navbar-nav{
+   flex-direction: inherit;
+   font-size: 14px;
+   justify-content: space-between;
+}
    .circle1{
     width: 55px;
     height: 55px;

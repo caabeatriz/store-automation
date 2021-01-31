@@ -141,6 +141,18 @@ a{
    p{
       font-size: 0.75rem;
    }
+   .navbarMobile{
+    width: 100%;
+    margin: 0 auto;
+    }
+    .navbar-brand{
+        width: 30%;
+    }
+    .navbar-nav{
+    flex-direction: inherit;
+    font-size: 14px;
+    justify-content: space-between;
+    }
    .banner-background{
     height: 50vh;
     background-position-x: center;
