@@ -321,6 +321,7 @@ a{
         }
        .banner-background{
         height: 50vh;
+        max-height: 70vh;;
         background-position-x: center;
         padding: 5vh 0 0 0;
        }
@@ -400,7 +401,7 @@ a{
     .sucess-images {
         width: 45%;
         margin-top: -133px;
-        max-height: 18vh;
+        max-height: 20vh;
     }
     .sucess-images_boxOne-imgTwo__mobile{
         display: none;
