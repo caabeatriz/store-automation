@@ -75,7 +75,7 @@ a:hover{
     width: 33%;
 }
 .btn-banner{
-    margin-top: 170px;
+    margin-top: 450px;
     margin-left: 220px;
 }
 
@@ -168,6 +168,61 @@ a:hover{
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 48px !important;
     height: 48px !important;
+}
+.section-cel{
+    background: #BF0607 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 6px #00000029;
+    opacity: 1;
+    color: #ffffff;
+}
+.section-cel__text {
+    width: 58%;
+    margin-top: 55px;
+}
+.section-cel__subtext{
+    font-style: italic;
+    width: 60%;
+    margin-left: 55px;
+}
+.section-cel__image{
+    margin-top: -365px;
+    width: 430px;
+}
+
+.section-cel_box-texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-cel__text, .section-cel__subtext {
+    margin-top: 40px;
+    width: 100%;
+}
+.section-cel__box-image{
+    width: 29%;
+    margin-top: 20px;
+}
+.section-cel__image {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.aspas{
+    font-size: 105px;
+    font-weight: 700;
+  }
+  .aspas-cel{
+    margin-top: 43px;
+  }
+  .section-cel_box-texts {
+    width: 58%;
+}
+.line-cel{
+    border-left: 4px solid white;
+    margin-top: 0px;
+    margin-left: 0;
+    height: 38vh;
+    margin-right: 50px;
 }
 .threeDescription{
     margin-bottom: 15vh;

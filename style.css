@@ -167,16 +167,17 @@ a:hover{
     opacity: 1;
     color: #ffffff;
 }
-.section-cel__text{
-    width: 50%;
-
+.section-cel__text {
+    width: 58%;
+    margin-top: 55px;
 }
 .section-cel__subtext{
     font-style: italic;
     width: 60%;
+    margin-left: 55px;
 }
 .section-cel__image{
-    margin-top: -370px;
+    margin-top: -365px;
     width: 430px;
 }
 
@@ -201,6 +202,7 @@ a:hover{
 .partner__box{
     width: 41.7%;
     margin-bottom: 10vh;
+    margin-right: 265px;
 }
 .partner__box-title{
     width: 30%;
@@ -277,7 +279,31 @@ a:hover{
     border-left: 4px solid white;
     margin-top: 74px;
     margin-left: -313px;
-    height: 100vh;
+    height: 50vh;
+  }
+  .line-banner{
+      height: 100vh;
+  }
+  .line-circle-red{
+    border-left: 4px solid white;
+    margin-top: 74px;
+    margin-left: -313px;
+    height: 10vh;
+  }
+  .line-circle-two {
+    margin-left: -217px;
+    }
+  .line-circle-three{
+    margin-left: 39px;
+    height: 42vh;
+    margin-top: -20px;
+  }
+  .aspas{
+    font-size: 105px;
+    font-weight: 700;
+  }
+  .aspas-cel{
+    margin-top: 43px;
   }
   .mobile-on{
     display: none;
