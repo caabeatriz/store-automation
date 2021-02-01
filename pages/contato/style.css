@@ -116,6 +116,10 @@ a:hover{
 .icons-texts__subtext{
  width: 90%;
 }
+.img-contact{
+    width: 60px;
+    margin-right: 30px;
+}
 .contact{
     padding: 10vh 0 10vh 0;
 }

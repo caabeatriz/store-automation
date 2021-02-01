@@ -71,6 +71,7 @@ a:hover{
 }
 .banner-textTwo{
     width: 33%;
+    margin-top: 150px;
 }
 .btn-banner{
     margin-top: 170px;
@@ -84,6 +85,7 @@ a:hover{
     width: 100%;
     background-size: cover;
     height: 335px;
+    margin-bottom: 60px;
 }
 .blog-box__subtext{
     margin-bottom: 20vh;
