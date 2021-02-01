@@ -38,6 +38,10 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+a:hover{
+    color: #ffffff;
+    text-decoration: none;   
+}
 /* Botões */
 .btn-red{
     width: 13vw;
@@ -96,7 +100,16 @@ a{
 .forms-contact__box-forms{
     width: 47%;
 }
-
+.btn-forms{
+    background-color: #ffffff96;
+    border: 1px solid #707070;
+    height: 8vh;
+    border-radius: 14px;
+    width: 35%;
+    float: right;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
 .icons-texts__box{
     margin-top: 86px;
 }
@@ -232,7 +245,7 @@ a{
             margin-bottom: 7vh;
         }
         .forms-contact {
-            min-height: 55vh;
+            min-height: 70vh;
             background-size: inherit;
         }
         .forms-contact__box {

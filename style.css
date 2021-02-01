@@ -38,6 +38,10 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+a:hover{
+    color: #ffffff;
+    text-decoration: none;   
+}
 /* Botões */
 .btn-red{
     width: 13vw;
@@ -146,6 +150,16 @@ a{
 }
 .forms-contact__box-forms{
     width: 47%;
+}
+.btn-forms{
+    background-color: #ffffff96;
+    border: 1px solid #707070;
+    height: 8vh;
+    border-radius: 14px;
+    width: 35%;
+    float: right;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 .section-cel{
     background: #BF0607 0% 0% no-repeat padding-box;
@@ -444,7 +458,7 @@ a{
         width: 70%;
     }
     .forms-contact {
-        height: 55vh;
+        height: 70vh;
         background-size: inherit;
     }
     .forms-contact__box {
