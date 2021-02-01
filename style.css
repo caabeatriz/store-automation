@@ -356,6 +356,14 @@ a:hover{
         margin-left: -32px;
         margin-top: 54px;
         }
+        .line-circle-three{
+            height: 30vh;
+            margin-top: 0px;
+            margin-left: 24px;
+        }
+        .aspas{
+            font-size: 55px;
+        }
         .line-desktop{
             display: none !important;
         }
@@ -453,6 +461,8 @@ a:hover{
         width: 50%;
         margin-top: 20px;
         margin-bottom: 2vh;
+        margin-left: 33px;
+        margin-right: 0;
     }
     .partner__box-title {
         width: 40%;
@@ -467,9 +477,13 @@ a:hover{
         font-size: 0.75rem;
         font-weight: bold;
     }
-    .section-cel__text, .section-cel__subtext {
+    .section-cel__text {
         margin-top: 20px;
         width: 100%;
+    }
+    .section-cel__subtext{
+        margin-left: 20px;
+        margin-top: 5px;
     }
     .section-cel__box-image{
         width: 29%;
