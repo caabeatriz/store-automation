@@ -329,6 +329,9 @@ a:hover{
    font-size: 14px;
    justify-content: space-between;
 }
+.logo{
+    width: 100px;
+}
    .circle1{
     width: 55px;
     height: 55px;
