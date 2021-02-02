@@ -331,12 +331,33 @@ a:hover{
 
 }
 .footer-box__social{
-    width: 70%;
+    width: 30%;
+    font-size: 1.2rem;
+    color: #ACACAC;
+}
+.footer-box__social h3{
+    margin-bottom: 3vh;
+}
+.newsletter{
+    margin-top: 4vh;
 }
 .footer-box__social-icons{
     display: flex;
     justify-content: space-between;
-    width: 18%;
+    width: 35%;
+}
+.footer-box__address{
+    color: #ACACAC;
+}
+.footer-box__address__box-icons-icon{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+.footer-box__address__box-icons-icon i {
+    font-size: 1.9rem
+}
+.footer-box__address__box-icons-icon span {
+    margin-left: 1vw;
 }
 .fab{
     font-size: 2.3rem;
@@ -442,8 +463,11 @@ a:hover{
        }
        .line-circle {
         height: 41vh;
-        margin-left: -32px;
+        margin-left: -7.7vw;
         margin-top: 54px;
+        }
+        .line-circle-two{
+            margin-left: 6.5vw;
         }
         .line-circle-three{
             height: 30vh;
@@ -566,6 +590,12 @@ a:hover{
         font-size: 0.75rem;
         font-weight: bold;
     }
+    .section-cel {
+        height: 30vh;
+    }
+    .section-cel__box {
+        height: 30vh;
+    }
     .section-cel__text {
         margin-top: 20px;
         width: 100%;
@@ -617,5 +647,66 @@ a:hover{
     .threeDescription_images-texts {
         margin-top: 80px;
     }
-  
+    .footer-box__address{
+        width: 40%;
+    }
+    .footer-box__address span{
+        font-size: 0.35rem;
+    }
+    .footer-box__social {
+        font-size: 1rem;
+        width: 50%;
+        line-height: 0.7;
+    }
+    .footer-box__social span{
+        font-size: 0.60rem;
+    }
+    .footer-box__address__box-icons-icon i {
+        font-size: 0.9rem;
+    }   
+    .footer-box__social-icons i{
+        font-size: 0.9rem;
+    } 
+    .newsletter{
+        width: 100%;
+    }
+    .footer-box__address__box-icons-icon {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    }
   }
+
+@media screen and (max-width:320px){
+    .circle1 {
+        width: 40px;
+        height: 40px;
+    }
+    .circle2{
+        width: 30px;
+        height: 30px;
+        transform: translate(15%, 15%);
+    }
+    .circle3 {
+        transform: translate(50%, 50%);
+        width: 15px;
+        height: 15px;
+    }
+    .line-circle-two, .line-circle-three{
+    margin-left: 6.3vw;
+    height: 80%;
+    margin-top: 11vw;
+}
+    .partner__box{
+        margin-left: 10px;
+    }
+    .btn-red{
+        font-size: 0.5rem;
+    }
+    .sucess-texts__boxTwo {
+        margin-left: 60px;
+    }
+    .sucess-texts {
+        width: 100%;
+        height: 70vh;
+    }
+}
