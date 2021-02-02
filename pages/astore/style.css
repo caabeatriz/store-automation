@@ -295,7 +295,7 @@ a:hover{
     color: #6c757d !important;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1054px) and (max-width: 1700px){
     h2{
         font-size: 2rem;
     }
