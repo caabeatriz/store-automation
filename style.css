@@ -30,6 +30,9 @@
 h2{
     font-size: 3rem;
 }
+h3{
+    font-size: 1.3rem;
+}
 p{
     font-size: 2rem;
     
@@ -278,7 +281,7 @@ a:hover{
   .line-circle{
     border-left: 4px solid white;
     margin-top: 74px;
-    margin-left: -313px;
+    margin-left:-17vw;
     height: 50vh;
   }
   .line-banner{
@@ -291,10 +294,13 @@ a:hover{
     height: 10vh;
   }
   .line-circle-two {
-    margin-left: -217px;
+    margin-left: 2.2vw;
+    position: absolute;
+    height: 90vh;
+    max-height: 100vh;
     }
   .line-circle-three{
-    margin-left: 39px;
+    margin-left: 2.2vw;
     height: 42vh;
     margin-top: -20px;
   }
@@ -313,6 +319,79 @@ a:hover{
 }
 .desktop-on{
     display: block;
+}
+.footer-box{
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 0 10vh 0;
+
+}
+.footer-box__social{
+    width: 70%;
+}
+.footer-box__social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+}
+.fab{
+    font-size: 2.3rem;
+    color: grey;
+}
+.content {
+    position: relative;
+    min-height: 20vh;
+    width: 40vw;
+    color: white;
+    margin-top: -50vh;
+  }
+  .images {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    bottom: 0;
+  }
+@media screen and (max-width: 1024px){
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .section-cel{
+        height: 50vh;
+    }
+    .section-cel__image {
+        width: 23vw;
+        height: 70vh;
+
+    }
+    .section-cel__box{
+        height: 50vh;
+    }
+    .line-circle-two {
+        height: 100vh;
+    } 
+    .partner__box {
+        margin-right: 70px;
+    }
+    .sucess-texts__boxTwo {
+        margin-left: 30px;
+    }
+.btn-red {
+    width: 26vw;
+}
+.btn-banner {
+    font-size: 1rem;
+    padding: 10px;
+    width: 20vw;
+    margin-top: 35px;
+    margin-left: 0;
+}
+.aspas{
+    font-size: 80px;
+}
 }
   @media screen and (max-width:900px){
       h2{

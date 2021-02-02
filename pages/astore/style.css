@@ -75,8 +75,10 @@ a:hover{
     width: 33%;
 }
 .btn-banner{
-    margin-top: 450px;
-    margin-left: 220px;
+    margin-top: 50vh;
+    margin-left: 10vw;
+    width: 50%;
+    font-size: 1rem;
 }
 
 .forms-contact{
@@ -159,8 +161,8 @@ a:hover{
 }
 .vision-box__text{
     width: 45%;
-    margin-left: 140px;
-    margin-top: 200px;
+    margin-top: 20vh;
+    margin-left: 10vh;
 }
 .vision-box__text-one{
     width: 78%;
@@ -178,6 +180,7 @@ a:hover{
 .section-cel__text {
     width: 58%;
     margin-top: 55px;
+    margin-left: 30px;
 }
 .section-cel__subtext{
     font-style: italic;
@@ -289,6 +292,18 @@ a:hover{
     color: #6c757d !important;
 }
 
+@media screen and (max-width: 1024px){
+    h2{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    
+    .aspas{
+        font-size: 80px;
+    }
+}
   @media screen and (max-width:900px){
     h2{
       font-size: 0.95rem;
@@ -425,4 +440,17 @@ a:hover{
     .threeDescription_images-texts {
         margin-top: 80px;
     }
+    .section-cel_box-texts {
+        width: 100%;
+    }
+    .section-aspas{
+        height: 2vh;
+        margin-top: 50px;
+    }    
+    .aspas{
+        font-size: 55px;
+    }
+    .logistic {
+        padding: 4vh 0 0 0;
+    }    
 }
