@@ -59,7 +59,7 @@ a:hover{
 }
 
 .banner-background{
-   background-image: url(../../assets/contact.jpeg);
+   background-image:  linear-gradient(          rgba(0, 0, 0, 0.7),           rgba(0, 0, 0, 0.7)        ),url(../../assets/contact.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position-y: center;
@@ -164,6 +164,14 @@ a:hover{
   .disabled{
     color: #6c757d !important;
 }
+@media screen and (min-width: 1366px) and (max-width:1600px){
+    h2{
+        font-size: 2rem;
+    }
+    .btn-red{
+        width: 50%;
+    }
+}
 @media screen and (max-width: 1024px){
     h2{
         font-size: 2rem;
@@ -189,6 +197,9 @@ a:hover{
    .navbarMobile{
     width: 100%;
     margin: 0 auto;
+}
+.logo {
+    width: 100px;
 }
 .navbar-brand{
     width: 30%;
@@ -285,3 +296,4 @@ a:hover{
         }
         
 }
+

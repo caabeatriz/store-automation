@@ -60,7 +60,7 @@ a:hover{
 }
 
 .banner-background{
-   background-image: url(../../assets/Blog-imagem-banner.jpeg);
+   background-image:  linear-gradient(          rgba(0, 0, 0, 0.7),           rgba(0, 0, 0, 0.7)        ),url(../../assets/Blog-imagem-banner.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position-y: center;
@@ -152,6 +152,9 @@ a:hover{
    p{
       font-size: 0.75rem;
    }
+   .logo {
+    width: 100px;
+    }
    .navbarMobile{
     width: 100%;
     margin: 0 auto;

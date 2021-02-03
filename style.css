@@ -28,7 +28,7 @@
     color: #ffffff;
 }
 h2{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 h3{
     font-size: 1.3rem;
@@ -51,13 +51,15 @@ a:hover{
 }
 /* Botões */
 .btn-red{
-    width: 13vw;
+    width: 60%;
     text-align: center;
     padding: 15px;
     border-radius: 20px;
     font-size: 25px;
 }
-
+.btn-red-partner{
+    width: 100%;
+}
 /* Navbar */
 .navbar-light .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -69,7 +71,7 @@ a:hover{
 }
 
 .banner-background{
-   background-image: url(assets/world.jpeg);
+   background-image:  linear-gradient(          rgba(0, 0, 0, 0.7),           rgba(0, 0, 0, 0.7)        ), url(assets/world.jpeg);
    background-size: cover;
    background-repeat: no-repeat;
    background-position-y: center;
@@ -377,7 +379,34 @@ a:hover{
     height: 100%;
     bottom: 0;
   }
-@media screen and (min-width: 1054px) and (max-width: 1400px){
+    @media screen and (min-width: 1610px){
+        .partner__box{
+            margin-top: 5vh;
+        }
+    }
+  @media screen and (min-width: 1431px) and (max-width: 1600px){
+    .btn-banner {
+        margin-top: 40px;
+    }
+    .sucess-texts__boxTwo {
+        margin-left: 40px;
+    }
+    .partner__box-title {
+        width: 40%;
+    }    
+    .sucess-images_boxOne-imgOne {
+        margin-top: 30px;
+    }    
+    .sucess-images_boxOne-imgTwo {
+        margin-bottom: -43px;
+        margin-top: 98px;
+    }
+    .partner__box{
+        margin-top: 15vh;
+    }
+    
+}
+@media screen and (min-width: 1024px) and (max-width: 1430px){
     h2{
         font-size: 2rem;
     }
@@ -397,14 +426,15 @@ a:hover{
     }
     .line-circle-two {
         height: 100vh;
-        margin-left: 3.2vw;
+           margin-left: 2.9vw;
 
     } 
     .line-circle-three{
-        margin-left: 3.2vw;
+           margin-left: 2.9vw;
     }
     .partner__box {
         margin-right: 70px;
+        margin-top: 60px;
     }
     .sucess-texts__boxTwo {
         margin-left: 30px;
@@ -466,7 +496,7 @@ a:hover{
            height: 10vh;
        }
        .line-circle {
-        height: 41vh;
+        height: 50vh;
         margin-left: -7.7vw;
         margin-top: 54px;
         }
