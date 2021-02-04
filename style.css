@@ -413,6 +413,13 @@ a:hover{
     p{
         font-size: 1.2rem;
     }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-textOne {
+        width: 40%;
+        margin-top: 150px;
+    }
     .section-cel{
         height: 50vh;
     }
@@ -423,6 +430,9 @@ a:hover{
     }
     .section-cel__box{
         height: 50vh;
+    }
+    .line-circle{
+        margin-left: -13vw;
     }
     .line-circle-two {
         height: 100vh;
