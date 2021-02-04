@@ -86,6 +86,9 @@ a:hover{
     width: 33%;
     margin-top: 150px;
 }
+.banner-title{
+    font-size: 2.7rem;
+}
 .btn-banner{
     margin-top: 170px;
     margin-left: 220px;
@@ -344,6 +347,31 @@ a:hover{
 .newsletter{
     margin-top: 4vh;
 }
+.newsletter-input, .newsletter-btn{
+    padding:10px;
+    background-color: #707070;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.newsletter-btn{
+    color: #ffffff;
+}
+::-webkit-input-placeholder {
+    color: #ACACAC;
+ }
+  
+ :-moz-placeholder { /* Firefox 18- */
+    color: #ACACAC;  
+ }
+  
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #ACACAC;  
+ }
+  
+ :-ms-input-placeholder {  
+    color: #ACACAC;  
+ }
 .footer-box__social-icons{
     display: flex;
     justify-content: space-between;
@@ -413,9 +441,7 @@ a:hover{
     p{
         font-size: 1.2rem;
     }
-    .banner-title{
-        font-size: 2rem;
-    }
+
     .banner-textOne {
         width: 40%;
         margin-top: 150px;
@@ -474,6 +500,9 @@ a:hover{
      }
      .logo{
         width: 100px;
+    }
+    .banner-title{
+        font-size: 0.75rem;
     }
      .navbarMobile{
          width: 100%;
@@ -719,10 +748,24 @@ a:hover{
     } 
     .newsletter{
         width: 100%;
+       
+    }
+    .newsletter-input{
+        padding: 8px;
+    }
+    .newsletter-btn{
+        padding: 11px;
+    }
+
+    .newsletter-input, .newsletter-btn{
+        font-size: 0.4rem;
     }
     .footer-box__address__box-icons-icon {
         margin-top: 0vh;
         margin-bottom: 0vh;
+    }
+    .footer-box__address__box-icons-icon i {
+        font-size: 0.9rem;
     }
   }
 
