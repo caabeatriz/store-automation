@@ -80,7 +80,7 @@ a:hover{
 }
 .banner-textOne{
     width: 30%;
-    margin-top: 150px;
+    margin-top: 60px;
 }
 .banner-textTwo{
     width: 33%;
@@ -432,6 +432,11 @@ a:hover{
     .partner__box{
         margin-top: 15vh;
     }
+
+    .line-circle-three {
+        height: 53vh;
+    }
+    
     
 }
 @media screen and (min-width: 1024px) and (max-width: 1430px){
@@ -444,7 +449,6 @@ a:hover{
 
     .banner-textOne {
         width: 40%;
-        margin-top: 150px;
     }
     .section-cel{
         height: 50vh;
@@ -461,8 +465,8 @@ a:hover{
         margin-left: -13vw;
     }
     .line-circle-two {
-        height: 100vh;
-           margin-left: 2.9vw;
+        height: 95.6vh;
+        margin-left: 2.9vw;
 
     } 
     .line-circle-three{
